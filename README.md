@@ -6,32 +6,32 @@ To build an intelligent model that can learn contextual word relationships in te
 
 **🧠 Key Features:**
 *Data Preprocessing:*
--Tokenization
--Stopword removal
--Text cleaning (punctuation, lowercasing)
--Lemmatization
--Padding sequences to uniform length
+- Tokenization
+- Stopword removal
+- Text cleaning (punctuation, lowercasing)
+- Lemmatization
+- Padding sequences to uniform length
 *Word Embedding:*
--Using Keras Embedding layer to convert tokens into dense vectors
+- Using Keras Embedding layer to convert tokens into dense vectors
 *Deep Learning Model:*
--Architecture includes:
--Embedding layer
--Bidirectional LSTM layer
--Dropout for regularization
--Dense output layer with sigmoid activation for binary classification
+- Architecture includes:
+- Embedding layer
+- Bidirectional LSTM layer
+- Dropout for regularization
+- Dense output layer with sigmoid activation for binary classification
 *Model Evaluation:*
--Accuracy, precision, recall, F1-score
--Confusion matrix for performance interpretation
+- Accuracy, precision, recall, F1-score
+- Confusion matrix for performance interpretation
 
 **🧾 Technologies Used:**
--Python
--TensorFlow / Keras
--NLTK (Natural Language Toolkit)
--NumPy / Pandas
--Matplotlib / Seaborn (for visualization)
+- Python
+- TensorFlow / Keras
+- NLTK (Natural Language Toolkit)
+- NumPy / Pandas
+- Matplotlib / Seaborn (for visualization)
 
 **💡 Use Cases:**
--Social media monitoring
--News aggregator filtering
--Media outlet credibility checks
--Educational demonstrations for NLP and deep learning
+- Social media monitoring
+- News aggregator filtering
+- Media outlet credibility checks
+- Educational demonstrations for NLP and deep learning
